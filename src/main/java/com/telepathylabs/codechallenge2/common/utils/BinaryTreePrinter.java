@@ -11,7 +11,7 @@ public class BinaryTreePrinter {
     public static void printNode(Node root) {
         BinaryTreePrinter binaryTreePrinter = new BinaryTreePrinter();
         int maxLevel = binaryTreePrinter.maxLevel(root);
-
+        System.out.println();
         binaryTreePrinter.printNodeInternal(Collections.singletonList(root), 1, maxLevel);
     }
 
