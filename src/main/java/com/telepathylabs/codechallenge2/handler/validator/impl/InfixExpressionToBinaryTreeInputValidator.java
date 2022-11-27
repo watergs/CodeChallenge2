@@ -8,7 +8,7 @@ import static com.telepathylabs.codechallenge2.common.utils.Constants.INVALID_EX
 import static com.telepathylabs.codechallenge2.common.utils.Constants.NEXT_LINE;
 
 @Component
-public class EvaluateInfixExpressionInputValidator extends AbstractInputValidator implements InputValidator<String, String> {
+public class InfixExpressionToBinaryTreeInputValidator extends AbstractInputValidator implements InputValidator<String, String>{
 
     @Override
     public String validate(String input) {

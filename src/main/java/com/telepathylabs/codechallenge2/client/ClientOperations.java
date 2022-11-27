@@ -4,5 +4,5 @@ public interface ClientOperations {
 
     String evaluateInfixExpression(String expression);
 
-    String drawInfixExpression(String expression);
+    String infixExpressionToBinaryTree(String expression);
 }
